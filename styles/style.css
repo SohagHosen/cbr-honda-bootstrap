@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 body {
   font-family: "Poppins", sans-serif;
+  /* overflow: hidden; */
 }
 .header_section {
   background-color: #264653;
@@ -46,7 +47,6 @@ body {
 }
 .download_btn {
   width: 155px;
-  /* height: 35px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,8 +57,6 @@ body {
 }
 .download_btn img {
   height: 26px;
-  /* height: 46px; */
-  /* padding: 5px; */
 }
 .download_btn h5 {
   margin: 0;
@@ -66,4 +64,7 @@ body {
 }
 .download_btn small {
   font-size: 12px;
+}
+.faq h1 span {
+  color: #e76f51;
 }

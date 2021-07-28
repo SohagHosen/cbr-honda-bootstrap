@@ -32,7 +32,9 @@
             aria-label="Toggle navigation"
           >
             <!-- <span class="navbar-toggler-icon"></span> -->
-            <span>Hello</span>
+            <span class="navbar-toggler-icon">
+              
+            </span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
@@ -40,7 +42,7 @@
               <a class="nav-link" href="#">Shop</a>
               <a class="nav-link" href="#">News</a>
               <a class="nav-link" href="#">Contacts</a>
-              <button class="ms-5 my_btn">Log in</button>
+              <button class="ms-lg-5 my_btn">Log in</button>
             </div>
           </div>
         </div>
@@ -84,11 +86,11 @@
                   aria-labelledby="exampleModalLabel"
                   aria-hidden="true"
                 >
-                  <div class="modal-dialog">
+                  <div class="modal-dialog text-dark">
                     <div class="modal-content">
                       <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLabel">
-                          Modal title
+                          warning
                         </h5>
                         <button
                           type="button"
@@ -97,18 +99,8 @@
                           aria-label="Close"
                         ></button>
                       </div>
-                      <div class="modal-body">...</div>
-                      <div class="modal-footer">
-                        <button
-                          type="button"
-                          class="btn btn-secondary"
-                          data-bs-dismiss="modal"
-                        >
-                          Close
-                        </button>
-                        <button type="button" class="btn btn-primary">
-                          Save changes
-                        </button>
+                      <div class="modal-body">
+                        You Need to login first or sign in to continue!
                       </div>
                     </div>
                   </div>
@@ -155,7 +147,7 @@
         <h1 class="my-5 text-center">latest News</h1>
 
         <div class="container">
-          <div class="row g-3 d-flex justify-content-between">
+          <div class="row  gy-3 d-flex justify-content-between">
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
               <div class="card">
                 <img
@@ -217,7 +209,7 @@
       <section class="client my-5 pt-5">
         <h1 class="my-5 text-center">Happy <span>Clients says</span></h1>
         <div class="container">
-          <div class="row g-5">
+          <div class="row gy-3">
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
               <div class="card text-center">
                 <img
@@ -304,14 +296,14 @@
       <!-- FAQ section  -->
       <section class="faq my-5 pt-5">
         <div class="container">
-          <h1 class="my-5 text-center">Happy <span>Clients says</span></h1>
+          <h1 class="my-5 text-center">Frequently Asked <span>Questions</span></h1>
           <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-              <div class="faq_img">
-                <img class="w-75" src="./images/faq.png" alt="" />
+              <div class="faq_img ">
+                <img class="w-75 " src="./images/faq.png" alt="" />
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-4">
               <div class="faq_content">
                 <div class="accordion" id="accordionExample">
                   <div class="accordion-item">
@@ -430,6 +422,38 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Section  -->
+      <section class="about_us my-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-center">
+             <div>
+                <h1>About US</h1>
+              <p class="lead text-muted w-md-75">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> laudantium! Alias, nihil rerum Laboriosam, dignissimos dolores. Vitae, labore assumenda accusamus laborum soluta amet.</p>
+             </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+              <img class="w-100" src="./images/about-us.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- contact section -->
+      <section class="contact my-5">
+        <div class="container">
+          <h1>Contact US</h1>
+          <div>
+           <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="something@demo.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">What's on your mind</label>
+              <textarea class="form-control" placeholder="Massage..." id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
           </div>
         </div>
       </section>
